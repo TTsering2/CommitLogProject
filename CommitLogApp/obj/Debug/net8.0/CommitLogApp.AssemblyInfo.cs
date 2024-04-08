@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CommitLogApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f34aa56546ead172391e53104d8f77fe6e80b593")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7a3c3c3f03e21fbde5b749e245cba179751d5d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CommitLogApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CommitLogApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
