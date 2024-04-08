@@ -10,11 +10,9 @@ class Program
 
         while(userInput != 9){
             Menu.PrintMenu();
-            // userInput = Menu.UserChoice();
             Console.WriteLine("Please enter your choice:");
-            string userInputString = Console.ReadLine();  // Read user input as string
-
-            userInput = Menu.UserChoice(userInputString);  // Parse user input into an integer
+            string userInputString = Console.ReadLine();  
+            userInput = Menu.UserChoice(userInputString);  
 
             switch(userInput){
                 //Prompt user for the credentials
