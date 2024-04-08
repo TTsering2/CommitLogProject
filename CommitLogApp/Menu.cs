@@ -5,6 +5,7 @@ class Menu{
         Console.WriteLine("1: Prompts the user credential menu");
         Console.WriteLine("2: Show your commit history for 24HR");
         Console.WriteLine("3: Shows your commit history for the last week");
+        Console.WriteLine("4. Show your last previous query.");
         Console.WriteLine("9: Exit");
     }
     
