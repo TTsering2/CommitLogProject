@@ -4,8 +4,7 @@ using System.IO;
 using Xunit;
 
 
-public class MenuTests
-{
+public class MenuTests{
     [Fact]
     public void PrintMenu_Should_Print_Expected_Output(){
         using (var consoleOutput = new ConsoleOutput()){
@@ -39,22 +38,19 @@ public class MenuTests
 
     [Fact]
     public void UserChoice_Should_Display_Error_Message_For_Invalid_Input() {
-        // Arrange
+
         using (var consoleOutput = new ConsoleOutput()){
-            // Act
             int actualChoice = Menu.UserChoice("invalid");
 
-            // Assert
-            Assert.Equal(-1, actualChoice); // Ensure return value is -1 for invalid input
+            Assert.Equal(-1, actualChoice); 
             string output = consoleOutput.GetOutput();
             Assert.Contains("Invalid input. Please enter a valid number.", output); // Verify error message
         }
     }
 }
 
-// Helper class to capture console output
-public class ConsoleOutput : IDisposable
-{
+
+public class ConsoleOutput : IDisposable{
     private StringWriter _stringWriter;
     private TextWriter _originalOutput;
 
