@@ -23,7 +23,7 @@ class Program{
             switch (userInput){
                 case 1:
                     Console.WriteLine("________________________________________________");
-                    Console.WriteLine("1 selected");
+                    Console.WriteLine("Credentials Form");
                     Console.WriteLine("________________________________________________");
                     try{
                         var userCredentials = new UserCredentials();
