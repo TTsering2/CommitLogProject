@@ -7,8 +7,15 @@ using Newtonsoft.Json;
 namespace CommitLogApp;
 
 public class DataService{
-    private const string filePath = "../db.json";
+    private  string filePath;
 
+    public DataService (string filePath){
+        this.filePath = filePath;
+    }
+
+    public DataService(){
+        this.filePath = "./db.json";
+    }
     public void SaveRequestData(Data data){
         string jsonData = JsonConvert.SerializeObject(data);
         File.WriteAllText(filePath, jsonData);

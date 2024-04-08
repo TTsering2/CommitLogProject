@@ -3,6 +3,7 @@
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/CommitLogApp.runtimeconfig.json
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/CommitLogApp.dll
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/CommitLogApp.pdb
+/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/Octokit.dll
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/xunit.abstractions.dll
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/xunit.assert.dll
@@ -20,4 +21,3 @@
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/CommitLogApp.pdb
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/CommitLogApp.genruntimeconfig.cache
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/ref/CommitLogApp.dll
-/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/Newtonsoft.Json.dll

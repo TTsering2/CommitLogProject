@@ -1,7 +1,7 @@
 namespace CommitLogApp;
 
 
-class UserCredentials {
+public class UserCredentials {
     public (string accessToken, string username, string repository) PromptUser(){
         Console.Write("Enter your GitHub Access Token: ");
         string accessToken =  Console.ReadLine();

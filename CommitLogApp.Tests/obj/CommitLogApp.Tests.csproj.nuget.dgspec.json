@@ -25,7 +25,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/CommitLogApp.csproj": {
+                "projectPath": "/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/CommitLogApp.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,7 +65,7 @@
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.7.0, )"
             },
             "xunit.runner.console": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -72,6 +76,78 @@
             "xunit.runner.visualstudio": {
               "target": "Package",
               "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/CommitLogApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/CommitLogApp.csproj",
+        "projectName": "CommitLogApp",
+        "projectPath": "/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/CommitLogApp.csproj",
+        "packagesPath": "/Users/tsering/.nuget/packages/",
+        "outputPath": "/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tsering/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Octokit": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.7.0, )"
             }
           },
           "imports": [

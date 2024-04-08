@@ -1,4 +1,4 @@
-class Menu{
+public class Menu{
     public static void PrintMenu(){
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Hello! Welcome to my commit viewer app!");
@@ -16,8 +16,6 @@ class Menu{
         Console.WriteLine("-Post commit query commands, you can hit enter again to load up the menu.");
         Console.WriteLine("-Keep coding!!!");
         Console.WriteLine("***************************************************************************");
-
-
     }
     
 
