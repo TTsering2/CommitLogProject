@@ -20,3 +20,4 @@
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/CommitLogApp.pdb
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/CommitLogApp.genruntimeconfig.cache
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/ref/CommitLogApp.dll
+/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/Newtonsoft.Json.dll
