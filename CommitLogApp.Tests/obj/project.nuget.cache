@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M0VYpKtW2rzQUR74QPwp4amoGwpKqEMDS4ojdlqFcy62/YZ3cG4L0wGDGBhBCwPQyK/W18f54awp7C9mxs1t1A==",
+  "dgSpecHash": "uDOkn4pk3jRyY79IjzYbcGKxzzG/ljxppYTxsfER6XfF77mMrjLUAkfVlaxd/g20ofahMblRsNiWhR7Feeww2w==",
   "success": true,
   "projectFilePath": "/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp.Tests/CommitLogApp.Tests.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,7 @@
     "/Users/tsering/.nuget/packages/xunit.extensibility.core/2.7.0/xunit.extensibility.core.2.7.0.nupkg.sha512",
     "/Users/tsering/.nuget/packages/xunit.extensibility.execution/2.7.0/xunit.extensibility.execution.2.7.0.nupkg.sha512",
     "/Users/tsering/.nuget/packages/xunit.runner.console/2.7.0/xunit.runner.console.2.7.0.nupkg.sha512",
-    "/Users/tsering/.nuget/packages/xunit.runner.visualstudio/2.5.3/xunit.runner.visualstudio.2.5.3.nupkg.sha512"
+    "/Users/tsering/.nuget/packages/xunit.runner.visualstudio/2.5.7/xunit.runner.visualstudio.2.5.7.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5,10 +5,6 @@
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/CommitLogApp.pdb
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/Octokit.dll
-/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/xunit.abstractions.dll
-/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/xunit.assert.dll
-/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/xunit.core.dll
-/Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/bin/Debug/net8.0/xunit.execution.dotnet.dll
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/CommitLogApp.csproj.AssemblyReference.cache
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/CommitLogApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/tsering/Desktop/Revature/CommitLogProject/CommitLogApp/obj/Debug/net8.0/CommitLogApp.AssemblyInfoInputs.cache

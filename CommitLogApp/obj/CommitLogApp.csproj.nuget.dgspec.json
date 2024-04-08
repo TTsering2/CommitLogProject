@@ -50,10 +50,6 @@
             "Octokit": {
               "target": "Package",
               "version": "[10.0.0, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.7.0, )"
             }
           },
           "imports": [
