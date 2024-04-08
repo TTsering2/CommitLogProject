@@ -25,7 +25,7 @@ class Menu{
     {
         try
         {
-            return int.Parse(input.Trim());  // Parse the input string into an integer
+            return int.Parse(input.Trim());  
         }
         catch (FormatException)
         {
