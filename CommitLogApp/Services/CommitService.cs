@@ -16,7 +16,7 @@ public class CommitService{
         Console.WriteLine($"Commits for {username}/{repository}:");
         foreach (var commit in commits)
         {
-            Console.WriteLine($"- {commit.Commit.Author.Name} ({commit.Commit.Author.Date}): {commit.Commit.Message}");
+            Console.WriteLine($"- {commit.Commit.Sha} {commit.Commit.Author.Name} ({commit.Commit.Author.Date}): {commit.Commit.Message}");
         }
     }
 }
