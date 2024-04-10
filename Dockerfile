@@ -14,8 +14,8 @@ RUN dotnet restore CommitLogApp.Tests/CommitLogApp.Tests.csproj
 COPY . .
 
 # Build CommitLogApp and CommitLogApp.Tests
-RUN dotnet build CommitLogApp/CommitLogApp.csproj -c Release --no-restore
-RUN dotnet build CommitLogApp.Tests/CommitLogApp.Tests.csproj -c Release --no-restore
+RUN dotnet build CommitLogApp/CommitLogApp.csproj -c Release 
+RUN dotnet build CommitLogApp.Tests/CommitLogApp.Tests.csproj -c Release 
 
 # Stage 2: Run tests and generate coverage report
 FROM build AS testrunner

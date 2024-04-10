@@ -1,3 +1,5 @@
+namespace CommitLogApp;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +10,10 @@ public class GitHubService {
     private readonly GitHubClient _gitHubClient;
 
     public GitHubService(string accessToken){
-        _gitHubClient = new GitHubClient(new ProductHeaderValue("GitReporter"));
-        _gitHubClient.Credentials = new Credentials(accessToken);
+        _gitHubClient = new GitHubClient(new ProductHeaderValue("GitReporter"))
+        {
+            Credentials = new Credentials(accessToken)
+        };
     }
 
     public async Task<IReadOnlyList<GitHubCommit>> GetCommits(string username, string repository, DateTimeOffset since, DateTimeOffset until){

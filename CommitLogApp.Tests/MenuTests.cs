@@ -2,7 +2,7 @@ namespace CommitLogApp.Tests;
 using System;
 using System.IO;
 using Xunit;
-using CommitLogApp; 
+
 
 
 public class MenuTests{
