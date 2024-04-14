@@ -12,13 +12,10 @@ public class UserCredentials {
         Console.Write("Enter the name of your repository: ");
         string repository = Console.ReadLine();
 
-
         //Ensuring non-empty inputs
         if(string.IsNullOrWhiteSpace(accessToken) || string.IsNullOrEmpty(username) || string.IsNullOrWhiteSpace(repository)){
             throw new ArgumentException("One or more of your inputs are empty");
         }
         return (accessToken, username, repository);
     }
-
-
 }

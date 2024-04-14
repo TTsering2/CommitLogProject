@@ -1,9 +1,9 @@
-namespace CommitLogApp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Octokit;
 
+namespace CommitLogApp;
 public class CommitService{
     private GitHubService _gitHubService;
 
