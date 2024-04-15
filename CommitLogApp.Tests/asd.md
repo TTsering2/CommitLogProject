@@ -1,7 +1,6 @@
 MAIN (PROD) -> DEVELOPMENT
 
+-2 env files 
+
 -PULL FROM DEVELOPMENT
 -CREATE A FEATURE BRANCH
-
-commit 3
-commit 4
