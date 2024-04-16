@@ -8,9 +8,9 @@
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
 
-  <CollectCoverage>true</CollectCoverage>
-  <CoverletOutput>../CoverageResults/</CoverletOutput>
-  <CoverletOutputFormat>opencover</CoverletOutputFormat>
+    <CollectCoverage>true</CollectCoverage>
+    <CoverletOutput>../CoverageResults/</CoverletOutput>
+    <CoverletOutputFormat>opencover</CoverletOutputFormat>
 
   </PropertyGroup>
 

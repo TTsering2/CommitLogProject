@@ -23,7 +23,6 @@ public class GitHubService {
                 Since = since,
                 Until = until
             };
-
             return await _gitHubClient.Repository.Commit.GetAll(username, repository, request);
         }
         catch (ApiException ex){
@@ -35,5 +34,4 @@ public class GitHubService {
             throw; 
         }
     }
-
 }
