@@ -6,9 +6,13 @@ name: CI/CD Pipeline
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: 
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches: 
+      - main
+  workflow_dispatch: 
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -22,24 +26,24 @@ jobs:
     - uses: actions/checkout@v2
     
     # Set up the .NET Core SDK
-    - name: Setup .NET Core
+    - name: Tsering
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '8.0.x'
         
     # Restore dependencies
-    - name: Restore dependencies
+    - name: is
       run: dotnet restore
       
     # Build the project 
-    - name: Build
+    - name: Master
       run: dotnet build --no-restore
       
     # Run tests
-    - name: Test
+    - name: Software
       run: dotnet test --no-build --verbosity normal
     
     # Building docker image locally
-    - name: Built Docker Image
-      run: docker build -t myImage:latest
+    - name: Engineer
+      run: docker image build -t myimage:latest ../../Dockerfile
   
