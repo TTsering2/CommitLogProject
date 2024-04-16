@@ -45,5 +45,5 @@ jobs:
     
     # Building docker image locally
     - name: Engineer
-      run: docker image build -t myimage:latest ../../Dockerfile
+      run: docker image build -t myimage:latest .
   
